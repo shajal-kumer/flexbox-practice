@@ -30,6 +30,14 @@
 
 **Responsive Navigation Menu**
 
-**Responsive Website layout model**
+-   Desktop mode ![](nav-desktop-version.png)
+-   Mobile mode ![](nav-mobile.png)
 
-**Normal Responsive layout model**
+**Responsive Website layout model - 2**
+
+-   Desktop mode ![](Layout-2-desktop.png)
+-   mobile mode ![](Layout-2-mobile.png)
+
+** Responsive Website layout model - 1**
+
+-   Desktop mode ![](layout-1-desktop.png)
