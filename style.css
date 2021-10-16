@@ -35,3 +35,46 @@
 	/* align-content: space-between; */
 	/* align-content: space-evenly; */
 }
+
+/* item properties  */
+
+/* order --> by default every item order is 0, lower value mean front side or first position */
+/* .one {
+	order: 1;
+}
+.two {
+	order: 3;
+}
+.three {
+	order: 2;
+}
+ */
+
+/*  flex grow */
+/* tells the browser how much a flex item will grow relative to the rest of the flex items in the flex container. */
+
+/* by default flex-grow: 0  don't grow */
+
+.item {
+	/* flex-grow: 1; */
+}
+
+/* flex-shrink */
+/* by default flex-shrink: 1  --> will shrink for responsive */
+
+.one {
+	flex-shrink: 2; /* will two time shrink than other item*/
+}
+
+/* flex-basis */
+/*  flex-basis === min-width + max-width  */
+/* always use flex-basis dont use min-width */
+.item {
+	/* min-width: 500px; /* will show horizontal bar*/
+	flex-basis: 500px;
+}
+
+/* flex  : felx-grow flex-shrink flex-basis */
+/* .item {
+	flex: 0 1 100px;
+} */
