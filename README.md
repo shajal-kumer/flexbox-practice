@@ -35,8 +35,8 @@
 
 **Responsive Website layout model - 2**
 
--   Desktop mode ![Layout-2-desktop.png](Layout-two-desktop.png)
--   mobile mode ![Layout-2-mobile.png](Layout-two-mobile.png)
+-   Desktop mode ![Layout-2-desktop.png](layout-two-desktop.png)
+-   mobile mode ![Layout-2-mobile.png](layout-two-mobile.png)
 
 **Responsive Website layout model - 1**
 
