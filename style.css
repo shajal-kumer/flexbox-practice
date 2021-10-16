@@ -1,36 +1,50 @@
-.container {
+.header {
 	display: flex;
 	flex-wrap: wrap;
 }
-.container-1-1 {
+.logo {
 	flex-basis: 100%;
-	display: flex;
-	flex-direction: column;
+	margin-bottom: 30px;
 }
-.container-1-2 {
-	flex-basis: 100%;
-	display: flex;
+.logo h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 40px;
 }
 
-.item {
-	flex-grow: 1;
+.nav {
+	flex-basis: 100%;
 }
 
+ul {
+	list-style: none;
+	display: flex;
+}
+ul li:not(:first-child, :last-child) {
+	margin: 0 10px;
+}
+
+li > a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	padding: 10px 15px;
+	display: block;
+	border-radius: 4px;
+}
+
+li > a:hover {
+	background-color: rgb(20, 170, 28);
+	color: #fff;
+}
 @media (min-width: 768px) {
-	.container {
+	.logo {
+		flex-basis: 30%;
 	}
-	.container-1-1 {
-		flex-basis: 60%;
-		flex-direction: row;
-		flex-wrap: wrap;
+	nav {
+		flex-basis: 70%;
 	}
-	.container-1-2 {
-		flex-basis: 40%;
-	}
-	.one {
-		flex-basis: 50%;
-	}
-	.two {
-		flex-basis: 50%;
+	ul {
+		justify-content: flex-end;
 	}
 }
