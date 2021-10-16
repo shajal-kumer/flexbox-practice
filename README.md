@@ -38,6 +38,10 @@
 -   Desktop mode ![](Layout-2-desktop.png)
 -   mobile mode ![](Layout-2-mobile.png)
 
-** Responsive Website layout model - 1**
+**Responsive Website layout model - 1**
 
 -   Desktop mode ![](layout-1-desktop.png)
+
+-   Mobile mode ![](layout-1-mobile.png)
+
+_Note:_ To see the project code chek the different branch
