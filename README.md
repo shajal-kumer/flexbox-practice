@@ -30,18 +30,18 @@
 
 **Responsive Navigation Menu**
 
--   Desktop mode ![](nav-desktop-version.png)
--   Mobile mode ![](nav-mobile.png)
+-   Desktop mode ![nav-desktop-version.png](nav-desktop-version.png)
+-   Mobile mode ![nav-mobile.png](nav-mobile.png)
 
 **Responsive Website layout model - 2**
 
--   Desktop mode ![](Layout-2-desktop.png)
--   mobile mode ![](Layout-2-mobile.png)
+-   Desktop mode ![Layout-2-desktop.png](Layout-2-desktop.png)
+-   mobile mode ![Layout-2-mobile.png](Layout-2-mobile.png)
 
 **Responsive Website layout model - 1**
 
--   Desktop mode ![](layout-1-desktop.png)
+-   Desktop mode ![layout-1-desktop.png](layout-1-desktop.png)
 
--   Mobile mode ![](layout-1-mobile.png)
+-   Mobile mode ![layout-1-mobile.png](layout-1-mobile.png)
 
 _Note:_ To see the project code chek the different branch
