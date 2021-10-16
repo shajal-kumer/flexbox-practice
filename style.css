@@ -1,80 +1,36 @@
 .container {
-	background-color: #fff;
 	display: flex;
-	/* flex-direction: row;  default */
-	/* flex-direction: row-reverse;  */
-	/* flex-direction: column;  */
-	/* flex-direction: column-reverse;  */
-	/* flex-wrap: nowrap;  default*/
-	/*flex-wrap: wrap; /*
-	/*flex-wrap: wrap-reverse; /*
-	/* flex-flow: [flex-directon] [flex-wrap] */
-	flex-flow: row wrap;
-
-	/* alignment of the content between flex item  through horizontally or main axis*/
-	justify-content: flex-start; /* default */
-	/* justify-content: center; */
-	/* justify-content: flex-end; */
-	/* justify-content: space-between; */
-	/* justify-content: space-around; */
-	/* justify-content: space-evenly; */
-
-	/* alignment of the content of flex individual row item or line item through vertically or corss axis*/
-	/* align-items: stretch; default */
-	/* align-items: flex-start; */
-	/* align-items: flex-end; */
-	/* align-items: center; */
-	/* align-items: baseline; */
-
-	/* alignment of the content between flex row or line through vertically or corss axis*/
-	/* align-content: stretch; /* default */
-	/* align-content: flex-start; */
-	/* align-content: flex-end; */
-	/* align-content: center; */
-	/* align-content: space-around; */
-	/* align-content: space-between; */
-	/* align-content: space-evenly; */
+	flex-wrap: wrap;
 }
-
-/* item properties  */
-
-/* order --> by default every item order is 0, lower value mean front side or first position */
-/* .one {
-	order: 1;
+.container-1-1 {
+	flex-basis: 100%;
+	display: flex;
+	flex-direction: column;
 }
-.two {
-	order: 3;
+.container-1-2 {
+	flex-basis: 100%;
+	display: flex;
 }
-.three {
-	order: 2;
-}
- */
-
-/*  flex grow */
-/* tells the browser how much a flex item will grow relative to the rest of the flex items in the flex container. */
-
-/* by default flex-grow: 0  don't grow */
 
 .item {
-	/* flex-grow: 1; */
+	flex-grow: 1;
 }
 
-/* flex-shrink */
-/* by default flex-shrink: 1  --> will shrink for responsive */
-
-.one {
-	flex-shrink: 2; /* will two time shrink than other item*/
+@media (min-width: 768px) {
+	.container {
+	}
+	.container-1-1 {
+		flex-basis: 60%;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.container-1-2 {
+		flex-basis: 40%;
+	}
+	.one {
+		flex-basis: 50%;
+	}
+	.two {
+		flex-basis: 50%;
+	}
 }
-
-/* flex-basis */
-/*  flex-basis === min-width + max-width  */
-/* always use flex-basis dont use min-width */
-.item {
-	/* min-width: 500px; /* will show horizontal bar*/
-	flex-basis: 500px;
-}
-
-/* flex  : felx-grow flex-shrink flex-basis */
-/* .item {
-	flex: 0 1 100px;
-} */
