@@ -35,13 +35,13 @@
 
 **Responsive Website layout model - 2**
 
--   Desktop mode ![Layout-2-desktop.png](Layout-2-desktop.png)
--   mobile mode ![Layout-2-mobile.png](Layout-2-mobile.png)
+-   Desktop mode ![Layout-2-desktop.png](Layout-two-desktop.png)
+-   mobile mode ![Layout-2-mobile.png](Layout-two-mobile.png)
 
 **Responsive Website layout model - 1**
 
--   Desktop mode ![layout-1-desktop.png](layout-1-desktop.png)
+-   Desktop mode ![layout-1-desktop.png](layout-one-desktop.png)
 
--   Mobile mode ![layout-1-mobile.png](layout-1-mobile.png)
+-   Mobile mode ![layout-1-mobile.png](layout-one-mobile.png)
 
 _Note:_ To see the project code chek the different branch
