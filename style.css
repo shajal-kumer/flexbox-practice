@@ -1,3 +1,37 @@
 .container {
+	background-color: #fff;
 	display: flex;
+	/* flex-direction: row;  default */
+	/* flex-direction: row-reverse;  */
+	/* flex-direction: column;  */
+	/* flex-direction: column-reverse;  */
+	/* flex-wrap: nowrap;  default*/
+	/*flex-wrap: wrap; /*
+	/*flex-wrap: wrap-reverse; /*
+	/* flex-flow: [flex-directon] [flex-wrap] */
+	flex-flow: row wrap;
+
+	/* alignment of the content between flex item  through horizontally or main axis*/
+	justify-content: flex-start; /* default */
+	/* justify-content: center; */
+	/* justify-content: flex-end; */
+	/* justify-content: space-between; */
+	/* justify-content: space-around; */
+	/* justify-content: space-evenly; */
+
+	/* alignment of the content of flex individual row item or line item through vertically or corss axis*/
+	/* align-items: stretch; default */
+	/* align-items: flex-start; */
+	/* align-items: flex-end; */
+	/* align-items: center; */
+	/* align-items: baseline; */
+
+	/* alignment of the content between flex row or line through vertically or corss axis*/
+	/* align-content: stretch; /* default */
+	/* align-content: flex-start; */
+	/* align-content: flex-end; */
+	/* align-content: center; */
+	/* align-content: space-around; */
+	/* align-content: space-between; */
+	/* align-content: space-evenly; */
 }
