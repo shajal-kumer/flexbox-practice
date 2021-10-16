@@ -10,3 +10,25 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 }
+
+header,
+footer,
+main,
+aside {
+	padding: 20px;
+}
+.header {
+	background-color: tomato;
+}
+.left-sidebar {
+	background-color: rgb(151, 10, 34);
+}
+.main-content {
+	background-color: rgb(175, 255, 71);
+}
+.right-sidebar {
+	background-color: rgb(71, 255, 194);
+}
+.footer {
+	background-color: rgb(71, 105, 255);
+}
