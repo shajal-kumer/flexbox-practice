@@ -45,3 +45,13 @@
 -   Mobile mode ![layout-1-mobile.png](layout-one-mobile.png)
 
 _Note:_ To see the project code chek the different branch
+
+## 🚀 About Me
+
+I'm a front-end developer with backend knowledge.
+
+## 🛠 Skills
+
+**Front-end** : Javascript, React, Next.js, HTML, CSS, Bootstrap, Tailwind, SASS, SVG, GSAP
+
+**Aditional Backend** : Node.js, Express.js, MongoDB, MySQL
